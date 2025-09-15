@@ -34,6 +34,14 @@ export default function Page() {
   href="https://app.formbricks.com/s/cmfjv6q1u1yoiz201c8mqenv4"
   target="_blank"
   rel="noopener noreferrer">Sign Up</a>
+   <a
+        href="https://app.formbricks.com/s/cmfjwp9q03hayy501efmeqm3o"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex items-center gap-2 rounded-xl px-4 py-2 border border-gray-300 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-900 text-sm font-medium w-max"
+      >
+        Contact Us
+      </a>
   </div>
 
   </section>
