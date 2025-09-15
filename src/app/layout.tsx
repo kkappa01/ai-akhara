@@ -1,6 +1,7 @@
 import './globals.css';
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import GoogleAnalytics from '@/components/GoogleAnalytics';
 
 export const metadata: Metadata = {
   title: 'AI Akhara',
@@ -18,6 +19,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 return (
 <html lang="en">
 <body>
+<GoogleAnalytics />
 <header className="border-b border-gray-200 dark:border-gray-800">
 <nav className="mx-auto max-w-5xl px-4 flex items-center justify-between py-4">
 <Link href="/" className="font-semibold">AI Akhara</Link>

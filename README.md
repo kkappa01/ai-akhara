@@ -64,6 +64,21 @@ bun dev
 
 4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+## Google Analytics Setup
+
+To enable Google Analytics tracking:
+
+1. Create a Google Analytics 4 (GA4) property in your [Google Analytics dashboard](https://analytics.google.com/)
+2. Get your Measurement ID (format: `G-XXXXXXXXXX`)
+3. Create a `.env.local` file in the root directory:
+```bash
+NEXT_PUBLIC_GA_ID=G-XXXXXXXXXX
+```
+4. Replace `G-XXXXXXXXXX` with your actual Google Analytics Measurement ID
+5. Restart your development server
+
+The Google Analytics component will automatically load and start tracking page views and user interactions.
+
 ## Project Structure
 
 ```
