@@ -1,4 +1,6 @@
-export default function ProjectCard({ project }: { project: any }) {
+import type { Project } from '@/lib/types';
+
+export default function ProjectCard({ project }: { project: Project }) {
     return (
     <a href={project.repo} target="_blank" rel="noreferrer" className="rounded-2xl shadow-lg p-6 border border-gray-200 dark:border-gray-800 block hover:shadow-xl transition-shadow">
     <div className="flex items-start justify-between gap-4">

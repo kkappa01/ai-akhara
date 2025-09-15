@@ -1,4 +1,5 @@
 import feed from '@/data/news.json';
+import type { NewsItem } from '@/lib/types';
 
 
 export const dynamic = 'force-static';
@@ -15,7 +16,7 @@ return (
 <div className="rounded-2xl shadow-lg p-6 border border-gray-200 dark:border-gray-800">No items yet. Agent will populate this page soon.</div>
 ) : (
 <ul className="grid gap-4">
-{feed.items.map((it: any, idx: number) => (
+{feed.items.map((it: NewsItem, idx: number) => (
 <li key={idx} className="rounded-2xl shadow-lg p-6 border border-gray-200 dark:border-gray-800">
 <a href={it.url} target="_blank" rel="noreferrer" className="font-semibold text-lg">{it.title}</a>
 <p className="opacity-80 mt-1">{it.summary}</p>

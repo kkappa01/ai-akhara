@@ -2,6 +2,7 @@ import projects from '@/data/projects.json';
 import ProjectCard from '@/components/ProjectCard';
 import React from "react";
 import ReactMarkdown from "react-markdown";
+import type { Project } from '@/lib/types';
 
 export const revalidate = 3600; // optional ISR hourly
 
@@ -64,7 +65,7 @@ return (
       <h1 className="text-2xl font-bold">Project Areas</h1>
       <div className="grid gap-4">
         {projects.map((p) => (
-          <ProjectCard key={p.name} project={p} />
+          <ProjectCard key={p.name} project={p as Project} />
         ))}
       </div>
     </div>

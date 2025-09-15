@@ -1,5 +1,6 @@
 import './globals.css';
 import type { Metadata } from 'next';
+import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'AI Akhara',
@@ -19,12 +20,12 @@ return (
 <body>
 <header className="border-b border-gray-200 dark:border-gray-800">
 <nav className="mx-auto max-w-5xl px-4 flex items-center justify-between py-4">
-<a href="/" className="font-semibold">AI Akhara</a>
+<Link href="/" className="font-semibold">AI Akhara</Link>
 <div className="flex gap-4 text-sm">
-<a href="/about">About</a>
-<a href="/projects">Projects</a>
-<a href="/office-hours">Office Hours</a>
-<a href="/news">News</a>
+<Link href="/about">About</Link>
+<Link href="/projects">Projects</Link>
+<Link href="/office-hours">Office Hours</Link>
+<Link href="/news">News</Link>
 </div>
 </nav>
 </header>
