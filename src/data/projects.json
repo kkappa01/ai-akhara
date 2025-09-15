@@ -1,0 +1,30 @@
+[
+    {
+    "name": "Automatic Prompt Optimization",
+    "repo": "",
+    "blurb": "Algorithms for iteratively optimizing prompts for Agentic AI applications.",
+    "tags": ["Prompt Optimization", "Agentic AI", "Applied Research"],
+    "status": "planned"
+    },
+    {
+        "name": "Introductory Agentic AI Research Assistant",
+        "repo": "",
+        "blurb": "An introductory project for building an Agentic AI research assistant.",
+        "tags": ["Agentic AI", "Application"],
+        "status": "planned"
+        },
+    {
+        "name": "Agent Eval Harness",
+        "repo": "",
+        "blurb": "Eval loops, metrics, and regression tests for agents.",
+        "tags": ["Agents", "Eval"],
+        "status": "planned"
+        },
+    {
+        "name": "Post-training for Agentic AI",
+        "repo": "",
+        "blurb": "Post-training to improve planning in Agentic AI applications.",
+        "tags": ["Post-training", "Model"],
+        "status": "planned"
+        }     
+    ]
