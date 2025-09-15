@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'AI Akhara',
-  description: 'A developer-first community to build model training skills and open AI systems.',
+  description: 'A community contribution to build a skilled community with rigour in AI systems.',
   icons: {
     icon: [
       { url: '/favicon.svg', type: 'image/svg+xml' },

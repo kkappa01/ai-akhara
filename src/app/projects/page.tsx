@@ -17,15 +17,6 @@ The mission should you choose to accept it, will be to work on useful AI project
 These skills are not just career-boosters; they’re empowering. They let you carry forward our vision: perhaps you will build the next open-source language model that can translate ancient texts, or an AI system that revolutionizes education or healthcare. 
 
 The possibilities are vast. Our work here is to give you the foundation and support to chase them.
-
-
-
-- **Automatic Prompt Optimization**
-- **Introductory Agentic AI Research Assistant**
-- **Agentic AI in the wild**
-- **Post-training of Models**
-- **Deployment and MLOps**
-
     `;
     
 

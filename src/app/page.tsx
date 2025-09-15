@@ -12,23 +12,28 @@ export default function Page() {
   </p> */}
   
   <p className="opacity-80">
-  An arena for AI engineers — to learn, practice and build confidence in Agentic AI, post-training, and production systems.
+  An arena for AI engineers — to learn, practice, and gain confidence in Agentic AI, post-training, and production systems.
   </p>
   <div className="my-4" />
   <p className="opacity-80">
-  Building a confident community of AI engineers who can design, and deploy cutting-edge useful AI systems.
+  Goal: Build a confident community of AI engineers who can design, and deploy useful, cutting-edge AI systems.
   </p>
   <div className="my-4" />
 
   <h2 className="text-xl font-semibold mb-2">Why are we Doing This?</h2>
   <p className="opacity-80">
-  The intent is to make the next era of AI more inclusive and relevant to every region and industry. 
-  We need many more confident builders who understand models deeply — not just on how to use them, but how to align, architect, and adapt them to solve real problems. This is our way of contributing to the community!
+  The next era of AI must be inclusive and relevant across regions and industries. 
+  We need more builders who understand models deeply — not just how to use them, but how to align, architect, and adapt them to solve realworld problems. 
+  AI Akhara is our way of contributing to that future.
   </p>
 
   <div className="mt-6 flex gap-3">
   <a className="inline-flex items-center gap-2 rounded-xl px-4 py-2 border border-gray-300 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-900" href="/about">Learn More About our Mission</a>
   {/* <a className="inline-flex items-center gap-2 rounded-xl px-4 py-2 border border-gray-300 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-900" href="/projects">See Projects</a> */}
+  <a className="inline-flex items-center gap-2 rounded-xl px-4 py-2 border border-gray-300 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-900" 
+  href="https://app.formbricks.com/s/cmfjv6q1u1yoiz201c8mqenv4"
+  target="_blank"
+  rel="noopener noreferrer">Sign Up</a>
   </div>
 
   </section>
@@ -49,26 +54,26 @@ export default function Page() {
         <b>Model Building</b> — Post-training and Evals.
       </li>
       <li>
-        <b>Agentic AI</b> — Designing systems for key real-world use cases.
+        <b>Agentic AI</b> — Designing systems for real-world use cases.
       </li>
       <li>
         <b>Production Readiness</b> — Infrastructure, monitoring, data pipelines, and deployment.
       </li>
     </ol>
     <p>
-      Through hands-on projects, collaborative challenges, and guided sessions, we help engineers become not just consumers of AI — but confident creators.
+    Through hands-on projects, collaborative challenges, and guided sessions, we help engineers move beyond consuming AI — to becoming confident creators.
     </p>
   
 
   <div className="my-4" />
   <h2 className="text-xl font-semibold mb-2">Activities</h2>
-  <p>All that is needed is ambition, and consistently spend 2-4 Hrs per weekend.</p>
+  <p>All you need is ambition and 2–4 hours each weekend.</p>
 
   <ul className="list-disc pl-5 space-y-1">
   <li><b>Weekend Akharas </b>– Intensive project based sessions.</li>
-  <li><b>AI Clinics & Office Hours </b>– Start-ups and college/university students, bring your questions and we will help or be your sounding board.</li>
-  <li><b>Collaborative Research</b>– Applied research collaborations with universities and research institutions.</li>
-  <li><b>Invited Talks & Showcases </b>– Talks from researchers, practitioners and builders, along with opportunities to showcase the projects.</li>
+  <li><b>AI Clinics & Office Hours </b>– For start-ups and college/university students, to bring questions, get guidance, or use us as a sounding board.</li>
+  <li><b>Collaborative Research</b>– Applied research collaborations with universities and researchers.</li>
+  <li><b>Invited Talks & Showcases </b>– Talks from researchers, practitioners and builders, plus opportunities to showcase projects.</li>
   </ul>
   </div>
   </p>
@@ -83,7 +88,7 @@ export default function Page() {
     <div className="rounded-xl border border-gray-200 dark:border-gray-700 p-4 flex flex-col justify-between h-full shadow-sm bg-white dark:bg-gray-950">
       <h3 className="text-lg font-semibold mb-2">Join Us</h3>
       <p className="mb-4">
-        Reach out to us about which <a href="/projects" className="text-blue-600 dark:text-blue-400 underline hover:text-blue-800 dark:hover:text-blue-200">project areas</a> you want to get involved with. Or feel fee to suggest any new project areas you would like to see.
+      Tell us which project you’d like to be part of — or suggest new ones you’d love to see come alive.
       </p>
       <a
         href="/projects"
@@ -96,7 +101,7 @@ export default function Page() {
     <div className="rounded-xl border border-gray-200 dark:border-gray-700 p-4 flex flex-col justify-between h-full shadow-sm bg-white dark:bg-gray-950">
       <h3 className="text-lg font-semibold mb-2">Office Hours</h3>
       <p className="mb-4">
-        Set up some time for a 1:1 chat. Please make sure to include your details and agenda.
+        Set up a 1:1 chat. Please include your details and a brief agenda when reaching out.
       </p>
       <a
         href="/office-hours"
@@ -109,7 +114,7 @@ export default function Page() {
     <div className="rounded-xl border border-gray-200 dark:border-gray-700 p-4 flex flex-col justify-between h-full shadow-sm bg-white dark:bg-gray-950">
       <h3 className="text-lg font-semibold mb-2">Collaborate</h3>
       <p className="mb-4">
-      Interested in collaborating on a project? Reach out to colloaborate on projects, or to get involved in the community.
+      Reach out to discuss potential projects, research, partnerships, or ways to contribute to the community.
       </p>
       <a
         href="https://app.formbricks.com/s/cmfjwp9q03hayy501efmeqm3o"
