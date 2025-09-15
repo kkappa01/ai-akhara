@@ -1,9 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI Akhara
 
-## Getting Started
+> An arena for model builders — to learn, practice and build confidence in Agentic AI, post-training, and production systems.
 
-First, run the development server:
+AI Akhara is a developer-first community focused on building model training skills and open AI systems. We're creating a confident community of AI engineers who can design, and deploy cutting-edge useful AI systems.
 
+## 🎯 Our Mission
+
+Building a confident community of AI engineers who can design, and deploy cutting-edge useful AI systems. The intent is to make the next era of AI more inclusive and relevant to every region and industry.
+
+## 🏗️ What We Do
+
+AI Akhara focuses on three pillars:
+
+1. **Model Building** — Post-training and Evals
+2. **Agentic AI** — Designing systems for key real-world use cases  
+3. **Production Readiness** — Infrastructure, monitoring, data pipelines, and deployment
+
+## 🚀 Activities
+
+- **Weekend Akharas** – Intensive project-based sessions
+- **AI Clinics & Office Hours** – Start-ups and college/university students, bring your questions and we will help or be your sounding board
+- **Collaborative Research** – Applied research collaborations with universities and research institutions
+- **Invited Talks & Showcases** – Talks from researchers, practitioners and builders, along with opportunities to showcase the projects
+
+## 🛠️ Tech Stack
+
+This website is built with:
+
+- **Framework**: [Next.js](https://nextjs.org) with App Router
+- **Styling**: Tailwind CSS
+- **Content**: React Markdown for dynamic content
+- **Deployment**: Vercel-ready
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18+ 
+- npm, yarn, pnpm, or bun
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/your-username/ai-akhara.git
+cd ai-akhara
+```
+
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+3. Run the development server:
 ```bash
 npm run dev
 # or
@@ -14,23 +67,48 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📁 Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+src/
+├── app/                    # Next.js App Router pages
+│   ├── about/             # About page (formerly manifesto)
+│   ├── news/              # News page (formerly curated)
+│   ├── projects/          # Projects showcase
+│   ├── office-hours/      # Office hours booking
+│   └── api/               # API routes
+├── components/            # Reusable React components
+├── data/                  # JSON data files
+│   ├── projects.json      # Project data
+│   └── news.json          # News/curated content
+└── lib/                   # Utility functions and types
+    └── types.ts           # TypeScript type definitions
+```
 
-## Learn More
+## 🤝 Contributing
 
-To learn more about Next.js, take a look at the following resources:
+We welcome contributions from the community! Here's how you can get involved:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Join Us**: Reach out about which [project areas](/projects) you want to get involved with
+2. **Office Hours**: Set up time for a 1:1 chat via our [office hours](/office-hours) page
+3. **Collaborate**: Interested in collaborating on a project? [Message us](https://app.formbricks.com/s/cmfjwp9q03hayy501efmeqm3o)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📞 Contact
 
-## Deploy on Vercel
+- **Name**: Karthik Kappaganthu
+- **Email**: [kaykappa01@gmail.com](mailto:kaykappa01@gmail.com)
+- **LinkedIn**: [https://www.linkedin.com/in/kkappa/](https://www.linkedin.com/in/kkappa/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📄 License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🌟 Acknowledgments
+
+AI Akhara draws inspiration from community-driven initiatives such as BigScience, EleutherAI, LAION, and Hugging Face's open collaborations. These efforts demonstrate the benefits of shared knowledge, open datasets, transparent training practices, and collective problem-solving.
+
+---
+
+*Building the next generation of AI engineers, one project at a time.*
