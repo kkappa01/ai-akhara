@@ -12,7 +12,7 @@ export default function Page() {
   </p> */}
   
   <p className="opacity-80">
-  An arena for model builders — to learn, practice and build confidence in Agentic AI, post-training, and production systems.
+  An arena for AI engineers — to learn, practice and build confidence in Agentic AI, post-training, and production systems.
   </p>
   <div className="my-4" />
   <p className="opacity-80">
