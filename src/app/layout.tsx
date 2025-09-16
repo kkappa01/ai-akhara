@@ -5,7 +5,7 @@ import GoogleAnalytics from '@/components/GoogleAnalytics';
 
 export const metadata: Metadata = {
   title: 'AI Akhara',
-  description: 'A community contribution to build a skilled community with rigour in AI systems.',
+  description: 'A community contribution initative to build a skilled community with rigour in AI systems.',
   icons: {
     icon: [
       { url: '/favicon.svg', type: 'image/svg+xml' },
